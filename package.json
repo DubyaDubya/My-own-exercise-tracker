@@ -1,0 +1,17 @@
+{
+  "name": "my-own-exercise-tracker",
+  "version": "1.0.0",
+  "description": "An exercise tracker like the one from fcc",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "William Weiler",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4",
+    "cors": "^2.8.5"
+  }
+}
