@@ -4,7 +4,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const User = require("./models/user");
 const Exercise = require("./models/exercise");
-process.env.MONGODB_URI="mongodb+srv://wmw31:johncarroll1@cluster0.80caa.mongodb.net/cluster0?retryWrites=true&w=majority";
+process.env.MONGODB_URI="insertmongodbserver"
 mongoose.connect(process.env.MONGODB_URI, {useNewUrlParser: true, useUnifiedTopology: true});
 //middleware
 app.use(cors());
